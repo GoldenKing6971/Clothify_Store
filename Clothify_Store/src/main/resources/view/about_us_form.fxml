@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="685.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane prefHeight="1286.0" prefWidth="960.0">
+         <children>
+            <ImageView fitHeight="831.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Colour2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="785.0" fitWidth="964.0" layoutX="-6.0" layoutY="763.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Colour3.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="398.0" layoutY="55.0" text="About Us">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Text layoutX="14.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Clothify Store – where style meets comfort!" wrappingWidth="486.43353271484375">
+               <font>
+                  <Font name="System Italic" size="20.0" />
+               </font></Text>
+            <Text layoutX="14.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At Clothify, we’re passionate about redefining fashion for all. We believe clothing isn’t just about looking good – it’s about feeling confident, empowered, and uniquely you. That’s why we offer a carefully curated selection of high-quality, trendy, and affordable apparel for every occasion." wrappingWidth="503.766845703125">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="16.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whether you’re updating your wardrobe with timeless classics or looking for the latest trends to make a bold statement, we’ve got you covered. Our mission is simple: to help you express yourself through fashion while enjoying a seamless shopping experience." wrappingWidth="503.766845703125">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="366.0" fitWidth="441.0" layoutX="504.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/About%203.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="19.0" layoutY="1023.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What sets us apart?" wrappingWidth="211.10028076171875">
+               <font>
+                  <Font name="System Italic" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="177.0" layoutY="1092.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We prioritize materials and craftsmanship to ensure every piece you wear feels as great as it looks." wrappingWidth="349.76690673828125">
+               <font>
+                  <Font name="System Italic" size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="19.0" layoutY="1092.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Premium Quality:" wrappingWidth="213.66668701171875">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="178.0" layoutY="1197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From chic casuals to elegant formalwear, our diverse collection is designed to cater to every style and body type." wrappingWidth="355.10015869140625">
+               <font>
+                  <Font name="System Italic" size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="20.0" layoutY="1197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inclusive Styles:" wrappingWidth="143.0">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="177.0" layoutY="1309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your satisfaction is our top priority, and we’re committed to making your journey with us delightful, from browsing to delivery." wrappingWidth="357.76690673828125">
+               <font>
+                  <Font name="System Italic" size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="20.0" layoutY="1311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer First:" wrappingWidth="187.0">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="19.0" layoutY="1445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At Clothify Store, we don’t just sell clothes – we inspire confidence, celebrate individuality, and bring your fashion dreams to life." wrappingWidth="577.1002197265625">
+               <font>
+                  <Font name="System Italic" size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="1506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for choosing us to be a part of your style journey. Let’s make every outfit count!" wrappingWidth="855.1002197265625">
+               <font>
+                  <Font name="System Italic" size="19.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="434.0" fitWidth="394.0" layoutX="37.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/About%201.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="422.0" fitWidth="470.0" layoutX="506.0" layoutY="1093.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/About%204.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="363.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A professional product showcase featuring a stylish men's polo shirt designed to combine elegance and comfort. This shirt is crafted in classic white with minimalist black accents, offering a timeless and versatile style that suits any occasion, whether casual or formal. The high-quality fabric ensures a premium feel, while the attention to detail, such as the neat stitching and carefully designed collar, highlights its sophisticated craftsmanship." wrappingWidth="575.766845703125">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="363.0" layoutY="771.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The shirt is displayed in a modern studio setting with soft lighting that accentuates its texture and contours. The background features a sleek gradient, giving the overall presentation a clean, polished, and high-end aesthetic. The design emphasizes clarity, making every element of the shirt stand out. The shirt is slightly elevated above the surface, adding a subtle floating effect that enhances its premium appeal. This presentation is ideal for e-commerce catalogs, branding, and marketing campaigns aiming to highlight quality and professionalism." wrappingWidth="575.766845703125">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+   </content>
+</ScrollPane>

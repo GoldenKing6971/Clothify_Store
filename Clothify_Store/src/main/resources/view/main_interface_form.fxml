@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="703.0" prefWidth="1242.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainInterfaceFormController">
+   <content>
+      <AnchorPane prefHeight="1587.0" prefWidth="1246.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9037e4" height="58.0" layoutX="-2.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1242.0" />
+            <Label layoutX="74.0" layoutY="8.0" text="Clothify Store">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="1028.0" layoutY="31.0" onAction="#hyperLoginOnAction" styleClass="actionIcon1" stylesheets="@../css/style1.css" text="Login" />
+            <Hyperlink layoutX="1075.0" layoutY="31.0" onAction="#hyperAboutUsOnAction" styleClass="actionIcon1" stylesheets="@../css/style1.css" text="About Us" />
+            <Hyperlink layoutX="1140.0" layoutY="32.0" onAction="#hyperContactOnAction" styleClass="actionIcon1" stylesheets="@../css/style1.css" text="Contact" />
+            <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="1033.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Login.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="45.0" layoutX="1088.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/About Us.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="1148.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Contact.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="631.0" fitWidth="1242.0" layoutX="1.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/InterFace.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="502.0" layoutY="760.0" text="Shop by Category">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="362.0" fitWidth="385.0" layoutX="158.0" layoutY="876.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Men.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="362.0" fitWidth="385.0" layoutX="498.0" layoutY="875.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Women.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="362.0" fitWidth="241.0" layoutX="835.0" layoutY="875.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Childs.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="170.0" layoutY="884.0" styleClass="column-header" stylesheets="@../css/style1.css" text="Men" textFill="#0a0909">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="513.0" layoutY="881.0" text="Women" textFill="#0a0909">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="849.0" layoutY="884.0" stylesheets="@../css/style1.css" text="Kids" textFill="#0a0909">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b03ee1" height="388.0" layoutX="-6.0" layoutY="1331.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1252.0" />
+            <Label layoutX="54.0" layoutY="1395.0" text="Clothify">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="1443.0" text="Premium clothing and accessories ">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="1473.0" text="for the modern lifestyle.">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="454.0" layoutY="1391.0" text="Shop">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="454.0" layoutY="1441.0" text="Men">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="454.0" layoutY="1481.0" text="Women">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="454.0" layoutY="1522.0" text="Kids">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="454.0" layoutY="1562.0" text="Trending">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="1391.0" text="Help">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="1441.0" text="Customer Service">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="1481.0" text="Shipping &amp; Returns">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="1522.0" text="FAQs">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="984.0" layoutY="1391.0" text="Contact">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="984.0" layoutY="1441.0" text="1234 Fashion Street">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="984.0" layoutY="1481.0" text="Gampaha, Dompe">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="984.0" layoutY="1522.0" text="contact@clothify.com">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="981.0" layoutY="1562.0" text="+94 078 516 2818">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Line endX="626.0" layoutX="561.0" layoutY="1647.0" startX="-507.0" stroke="#403f3f" />
+            <Label layoutX="61.0" layoutY="1670.0" text="© 2025 Clothify. All rights reserved.">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="971.0" layoutY="1670.0" text="Privacy Policy">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1081.0" layoutY="1670.0" text="Terms of Service">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="196.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/instagram.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="240.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/twitter.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="284.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/face book.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="27.0" layoutX="328.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/linkdin.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="202.0" layoutY="581.0" onAction="#btnBuyNowOnAction" prefHeight="52.0" prefWidth="159.0" styleClass="btn2" stylesheets="@../css/style1.css" text="BUY NOW" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="43.0" layoutY="1516.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/mix image.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="57.0" fitWidth="74.0" layoutX="8.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="131.0" fitWidth="548.0" layoutX="1.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/interface 2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

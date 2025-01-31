@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="542.0" prefWidth="575.0" style="-fx-background-color: linear-gradient(to right, #0F2027, #203A43, #2C5364); -fx-padding: 40; -fx-border-radius: 10; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox alignment="CENTER" cacheShape="false" centerShape="false" layoutX="88.0" layoutY="78.0" scaleShape="false" spacing="20" style="-fx-background-color: #1E3A8A; -fx-padding: 30; -fx-border-radius: 10; -fx-background-radius: 10;">
+
+      <Label style="-fx-font-size: 28; -fx-font-weight: bold; -fx-text-fill: white;" text="CONTACT US" />
+      <AnchorPane prefHeight="56.0" prefWidth="478.0">
+         <children>
+            <Label layoutX="99.0" layoutY="-1.0" prefHeight="31.0" prefWidth="283.0" text="&quot;Have questions or need assistance? We're here " textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="27.0" prefHeight="31.0" prefWidth="189.0" text="to help—reach out to us today!&quot;" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+
+      <TextField promptText="Your Name" style="-fx-background-color: transparent; -fx-border-color: #4B5563; -fx-border-width: 2; -fx-border-radius: 5; -fx-text-fill: white; -fx-prompt-text-fill: #9CA3AF; -fx-padding: 10;" />
+      <TextField promptText="Your Mail" style="-fx-background-color: transparent; -fx-border-color: #4B5563; -fx-border-width: 2; -fx-border-radius: 5; -fx-text-fill: white; -fx-prompt-text-fill: #9CA3AF; -fx-padding: 10;" />
+      <TextArea prefRowCount="4" promptText="Your Message" style="-fx-background-color: transparent; -fx-border-color: #4B5563; -fx-border-width: 2; -fx-border-radius: 5; -fx-prompt-text-fill: #9CA3AF; -fx-padding: 10;" wrapText="true" />
+
+      <JFXButton style="-fx-background-color: #2563EB; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10 20; -fx-border-radius: 5; -fx-background-radius: 5; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 3);" text="SUBMIT →" />
+   </VBox>
+</AnchorPane>

@@ -1,0 +1,44 @@
+.text-field {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-border-color: #ccc; /* Light grey border */
+    -fx-border-width: 1px; /* Border thickness */
+    -fx-padding: 8px; /* Padding inside the text field */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-min-width: 150px; /* Minimum width for text fields */
+    -fx-max-width: 200px; /* Maximum width for text fields */
+    -fx-pref-width: 180px; /* Preferred width for text fields */
+}
+
+.text-fields-container {
+    -fx-spacing: 10px; /* Space between the text fields */
+    -fx-alignment: center; /* Center-align the text fields */
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50; /* Green border when focused */
+    -fx-background-color: #f0f0f0; /* Slightly grey background when focused */
+}
+
+.text-field .prompt-text {
+    -fx-fill: #aaa;
+}
+
+#main {
+    -fx-font-size: 27px; /* Font size */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-weight: bold; /* Bold text */
+}
+
+#lblNetTotal1 {
+        -fx-font-size: 14px; /* Font size */
+        -fx-text-fill: red; /* Text color */
+        -fx-font-weight: bold; /* Bold text */
+}
+
+#lblNetTotal {
+        -fx-font-size: 15px; /* Font size */
+        -fx-text-fill: red; /* Text color */
+        -fx-font-weight: bold; /* Bold text */
+}

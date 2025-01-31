@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <AnchorPane prefHeight="1570.0" prefWidth="914.0">
+         <ImageView fitHeight="708.0" fitWidth="902.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../img/Colour.jpg" />
+            </image>
+         </ImageView>
+         <VBox fx:id="productCard11" alignment="CENTER" layoutX="70.0" layoutY="88.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/1.jpg" />
+                  </image></ImageView>
+               <Label fx:id="productName11" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="T-shirt" />
+               <Label fx:id="productCategory11" style="-fx-font-size: 12px;" text="Mix Colors" />
+               <Label fx:id="productPrice11" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="1,800 LKR" textFill="#111111" />
+            </children>
+         </VBox>
+         <ImageView fitHeight="567.0" fitWidth="916.0" layoutX="-2.0" layoutY="538.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../img/Colour0.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="566.0" fitWidth="962.0" layoutX="-28.0" layoutY="1088.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../img/Colour.jpg" />
+            </image>
+         </ImageView>
+         <VBox fx:id="productCard111" alignment="CENTER" layoutX="230.0" layoutY="88.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111" fitHeight="100.0" fitWidth="99.0">
+                  <image>
+                     <Image url="@../img/men/2.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Polo shirt" />
+               <Label fx:id="productCategory111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="2,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1111" alignment="CENTER" layoutX="390.0" layoutY="88.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/3.jpg" />
+                  </image></ImageView>
+               <Label fx:id="productName1111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Button-down shirt" />
+               <Label fx:id="productCategory1111" style="-fx-font-size: 12px;" text="Blue" />
+               <Label fx:id="productPrice1111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="3,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11111" alignment="CENTER" layoutX="550.0" layoutY="88.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/4.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Dress shirt" />
+               <Label fx:id="productCategory11111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice11111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="4,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111111" alignment="CENTER" layoutX="710.0" layoutY="88.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/5.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Sweatshirt" />
+               <Label fx:id="productCategory111111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice111111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="3,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard112" alignment="CENTER" layoutX="70.0" layoutY="318.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage112" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/6.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName112" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Hoodie" />
+               <Label fx:id="productCategory112" style="-fx-font-size: 12px;" text="Green" />
+               <Label fx:id="productPrice112" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="4,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1112" alignment="CENTER" layoutX="230.0" layoutY="318.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1112" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/7.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1112" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Jacket" />
+               <Label fx:id="productCategory1112" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice1112" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="6,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11112" alignment="CENTER" layoutX="390.0" layoutY="318.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11112" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/8.jpg" />
+                  </image></ImageView>
+               <Label fx:id="productName11112" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Blazer" />
+               <Label fx:id="productCategory11112" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice11112" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="9,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111112" alignment="CENTER" layoutX="550.0" layoutY="318.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111112" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/9.jpg" />
+                  </image></ImageView>
+               <Label fx:id="productName111112" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Suit" />
+               <Label fx:id="productCategory111112" style="-fx-font-size: 12px;" text="Blue" />
+               <Label fx:id="productPrice111112" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="15,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1111111" alignment="CENTER" layoutX="710.0" layoutY="318.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1111111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/10.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1111111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Sports jacket" />
+               <Label fx:id="productCategory1111111" style="-fx-font-size: 12px;" text="Black and White" />
+               <Label fx:id="productPrice1111111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="7,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1121" alignment="CENTER" layoutX="70.0" layoutY="548.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1121" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/11.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1121" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Vest" />
+               <Label fx:id="productCategory1121" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice1121" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="3,200 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11121" alignment="CENTER" layoutX="230.0" layoutY="548.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11121" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/12.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11121" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Overcoat" />
+               <Label fx:id="productCategory11121" style="-fx-font-size: 12px;" text="Mix Colors" />
+               <Label fx:id="productPrice11121" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="10,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111121" alignment="CENTER" layoutX="390.0" layoutY="548.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111121" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/13.png" />
+                  </image></ImageView>
+               <Label fx:id="productName111121" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Trench coat" />
+               <Label fx:id="productCategory111121" style="-fx-font-size: 12px;" text="Brown" />
+               <Label fx:id="productPrice111121" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="12,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1111121" alignment="CENTER" layoutX="550.0" layoutY="548.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1111121" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/14.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1111121" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Leather jacket" />
+               <Label fx:id="productCategory1111121" style="-fx-font-size: 12px;" text="Red" />
+               <Label fx:id="productPrice1111121" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="15,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11111111" alignment="CENTER" layoutX="710.0" layoutY="548.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11111111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/15.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11111111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Bomber jacket" />
+               <Label fx:id="productCategory11111111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice11111111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="7,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11211" alignment="CENTER" layoutX="70.0" layoutY="778.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11211" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/16.jpg" />
+                  </image></ImageView>
+               <Label fx:id="productName11211" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Cardigan" />
+               <Label fx:id="productCategory11211" style="-fx-font-size: 12px;" text="Green" />
+               <Label fx:id="productPrice11211" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="3,800 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111211" alignment="CENTER" layoutX="230.0" layoutY="778.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111211" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/17.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111211" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Sweater" />
+               <Label fx:id="productCategory111211" style="-fx-font-size: 12px;" text="Black and White" />
+               <Label fx:id="productPrice111211" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="3,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1111211" alignment="CENTER" layoutX="390.0" layoutY="778.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1111211" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/18.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1111211" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Crewneck sweater" />
+               <Label fx:id="productCategory1111211" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice1111211" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="4,200 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11111211" alignment="CENTER" layoutX="550.0" layoutY="778.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11111211" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/19.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11111211" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Chinos" />
+               <Label fx:id="productCategory11111211" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice11111211" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="4,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111111111" alignment="CENTER" layoutX="710.0" layoutY="778.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111111111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/20.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111111111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Jeans" />
+               <Label fx:id="productCategory111111111" style="-fx-font-size: 12px;" text="Blue" />
+               <Label fx:id="productPrice111111111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="6,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard112111" alignment="CENTER" layoutX="70.0" layoutY="1008.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage112111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/21.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName112111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Cargo pants" />
+               <Label fx:id="productCategory112111" style="-fx-font-size: 12px;" text="Green" />
+               <Label fx:id="productPrice112111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="5,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1112111" alignment="CENTER" layoutX="230.0" layoutY="1008.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1112111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/22.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1112111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Dress pants" />
+               <Label fx:id="productCategory1112111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice1112111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="6,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11112111" alignment="CENTER" layoutX="390.0" layoutY="1008.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11112111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/23.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11112111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Shorts" />
+               <Label fx:id="productCategory11112111" style="-fx-font-size: 12px;" text="Green" />
+               <Label fx:id="productPrice11112111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="3,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111112111" alignment="CENTER" layoutX="550.0" layoutY="1008.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111112111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/24.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111112111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Sweatpants" />
+               <Label fx:id="productCategory111112111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice111112111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="4,200 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1111111111" alignment="CENTER" layoutX="710.0" layoutY="1008.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1111111111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/25.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1111111111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Joggers" />
+               <Label fx:id="productCategory1111111111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice1111111111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="4,800 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1121111" alignment="CENTER" layoutX="70.0" layoutY="1238.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1121111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/26.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1121111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Track pants" />
+               <Label fx:id="productCategory1121111" style="-fx-font-size: 12px;" text="White" />
+               <Label fx:id="productPrice1121111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="4,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11121111" alignment="CENTER" layoutX="230.0" layoutY="1238.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11121111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/27.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11121111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Khakis" />
+               <Label fx:id="productCategory11121111" style="-fx-font-size: 12px;" text="Brown" />
+               <Label fx:id="productPrice11121111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="5,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111121111" alignment="CENTER" layoutX="390.0" layoutY="1238.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111121111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/28.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111121111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Suit trousers" />
+               <Label fx:id="productCategory111121111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice111121111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="7,000 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1111121111" alignment="CENTER" layoutX="550.0" layoutY="1238.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1111121111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/29.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1111121111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Boxer shorts" />
+               <Label fx:id="productCategory1111121111" style="-fx-font-size: 12px;" text="Blue" />
+               <Label fx:id="productPrice1111121111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="1,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11111111111" alignment="CENTER" layoutX="710.0" layoutY="1238.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11111111111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/30.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11111111111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Briefs" />
+               <Label fx:id="productCategory11111111111" style="-fx-font-size: 12px;" text="Blue" />
+               <Label fx:id="productPrice11111111111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="1,200 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11211111" alignment="CENTER" layoutX="70.0" layoutY="1458.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11211111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/31.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11211111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Undershirt" />
+               <Label fx:id="productCategory11211111" style="-fx-font-size: 12px;" text="White" />
+               <Label fx:id="productPrice11211111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="1,800 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111211111" alignment="CENTER" layoutX="230.0" layoutY="1458.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111211111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/32.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111211111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Socks" />
+               <Label fx:id="productCategory111211111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice111211111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard1111211111" alignment="CENTER" layoutX="390.0" layoutY="1458.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage1111211111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/33.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName1111211111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Tights" />
+               <Label fx:id="productCategory1111211111" style="-fx-font-size: 12px;" text="Black" />
+               <Label fx:id="productPrice1111211111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="1,200 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard11111211111" alignment="CENTER" layoutX="550.0" layoutY="1458.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage11111211111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/34.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName11111211111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Pajama set" />
+               <Label fx:id="productCategory11111211111" style="-fx-font-size: 12px;" text="Blue and White" />
+               <Label fx:id="productPrice11111211111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="2,500 LKR" />
+            </children>
+         </VBox>
+         <VBox fx:id="productCard111111111111" alignment="CENTER" layoutX="710.0" layoutY="1458.0" spacing="5" style="-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1; -fx-background-radius: 10; -fx-alignment: center;">
+            <children>
+               <ImageView fx:id="productImage111111111111" fitHeight="100" fitWidth="100">
+                  <image>
+                     <Image url="@../img/men/35.jpeg" />
+                  </image></ImageView>
+               <Label fx:id="productName111111111111" style="-fx-font-weight: bold; -fx-font-size: 14px;" text="Bathrobe" />
+               <Label fx:id="productCategory111111111111" style="-fx-font-size: 12px;" text="Blue" />
+               <Label fx:id="productPrice111111111111" style="-fx-font-size: 12px; -fx-text-fill: pink;" text="3,500 LKR" />
+            </children>
+         </VBox>
+         <Label layoutX="333.0" layoutY="13.0" prefHeight="57.0" prefWidth="228.0" text="Men's Fashions">
+            <font>
+               <Font name="System Bold" size="30.0" />
+            </font>
+         </Label>
+        </AnchorPane>
+    </content>
+</ScrollPane>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="914.0" stylesheets="@../css/style3.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+       <VBox spacing="20" styleClass="main-content">
+           <HBox prefHeight="81.0" prefWidth="874.0" spacing="20">
+               <VBox prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
+                   <Label text="Total Sales" />
+                   <Label styleClass="value" text="Rs.590,560" />
+               </VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
+               <children>
+                  <Label text="Product" />
+                  <Label styleClass="value" text="1,000" />
+               </children>
+            </VBox>
+            <VBox layoutX="238.0" layoutY="10.0" prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
+               <children>
+                  <Label text="Orders" />
+                  <Label styleClass="value" text="1,200" />
+               </children>
+            </VBox>
+            <VBox layoutX="466.0" layoutY="10.0" prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
+               <children>
+                  <Label text="Customer" />
+                  <Label styleClass="value" text="1,450" />
+               </children>
+            </VBox>
+           </HBox>
+       </VBox>
+   </top>
+    <center>
+        <VBox alignment="CENTER" spacing="10" styleClass="categories-section">
+            <Label alignment="CENTER" styleClass="section-title" text="Popular Products" />
+            <HBox alignment="CENTER" spacing="20">
+                <VBox styleClass="category-box">
+                    <Label styleClass="category-title" text="Men">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></Label>
+                    <ListView prefHeight="400.0" prefWidth="295.0">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="Men's Classic T-Shirt - 245 sold" />
+                                <String fx:value="Men's Running Sneakers - 180 sold" />
+                                <String fx:value="Men's Slim Fit Jeans - 120 sold" />
+                                <String fx:value="Men's Polo Shirt - 110 sold" />
+                                <String fx:value="Men's Sports Jacket - 150 sold" />
+                                <String fx:value="Men's Leather Belt - 190 sold" />
+                                <String fx:value="Men's Cargo Pants - 120 sold" />
+                                <String fx:value="Men's Hooded Sweatshirt - 180 sold" />
+                                <String fx:value="Men's Formal Suit - 170 sold" />
+                            </FXCollections>
+                        </items>
+                    </ListView>
+                </VBox>
+                <VBox styleClass="category-box">
+                    <Label styleClass="category-title" text="Women" />
+                    <ListView prefHeight="400.0" prefWidth="290.0">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="Women's Summer Dress - 280 sold" />
+                                <String fx:value="Women's Winter Coat - 150 sold" />
+                                <String fx:value="Women's Yoga Leggings - 130 sold" />
+                                <String fx:value="Women's Shift Dress - 150 sold" />
+                                <String fx:value="Women's Denim Jacket - 150 sold" />
+                                <String fx:value="Women's Ankle Boots - 180 sold" />
+                                <String fx:value="Women's Satin Blouse - 110 sold" />
+                                <String fx:value="Women's Wrap Dress - 190 sold" />
+                                <String fx:value="Women's A-Line Dress - 120 sold" />
+                            </FXCollections>
+                        </items>
+                    </ListView>
+                </VBox>
+                <VBox styleClass="category-box">
+                    <Label styleClass="category-title" text="Kids" />
+                    <ListView>
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="Kids' Casual Pants - 256 sold" />
+                                <String fx:value="Kids' Cotton Dress - 150 sold" />
+                                <String fx:value="Kids' Winter Boots - 125 sold" />
+                                <String fx:value="Kids' Floral Dress - 180 sold" />
+                                <String fx:value="Kids' Denim Dress - 150 sold" />
+                                <String fx:value="Kids' T-shirt Dress - 180 sold" />
+                                <String fx:value="Kids' Knit Dress - 140 sold" />
+                                <String fx:value="Kids' Tiered Dress - 130 sold" />
+                                <String fx:value="Kids' Plaid Dress - 120 sold" />
+                            </FXCollections>
+                        </items>
+                    </ListView>
+                </VBox>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

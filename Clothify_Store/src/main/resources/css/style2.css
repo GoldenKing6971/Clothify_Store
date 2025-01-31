@@ -1,0 +1,107 @@
+
+.background {
+    -fx-background-color: linear-gradient(to bottom right, #762dc2, #ba68f9);
+}
+
+.background1 {
+    -fx-background-color: linear-gradient(to bottom right, #8a2387, #e94057, #f27121); /* Gradient colors */
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+
+.logo {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+
+.text-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 10;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.text-field:focused {
+    -fx-border-color: #ffcc00;
+    -fx-border-width: 2px;
+}
+
+
+.checkbox {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+
+.signup-button {
+    -fx-background-color: #ffcc00;
+    -fx-text-fill: #762dc2;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-pref-width: 150px;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-font-size: 14px;
+}
+.signup-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #762dc2;
+}
+
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #8a2387;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 4, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #e94057;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+}
+
+
+.text-field, .password-field {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-border-color: transparent;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-border-color: #8a2387;
+}
+
+
+
+#registerButton, #loginButton {
+    -fx-background-color: #8a2387;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-background-radius: 20;
+    -fx-padding: 10 30;
+}
+
+#registerButton:hover, #loginButton:hover {
+    -fx-background-color: #e94057;
+}
+
+
+.check-box {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
