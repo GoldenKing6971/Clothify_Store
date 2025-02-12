@@ -13,12 +13,12 @@ public class CustomerController implements CustomerService{
     @Override
     public boolean addCustomer(Customer customer) {
         try (Connection connection = DBConnection.getInstance().getConnection()) {
-            String query = "INSERT INTO customer (id, name, address, salary) VALUES (?, ?, ?, ?)";
+            String query = "INSERT INTO customer (id, name, address, phonenumber) VALUES (?, ?, ?, ?)";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setString(1, customer.getId());
                 preparedStatement.setString(2, customer.getName());
                 preparedStatement.setString(3, customer.getAddress());
-                preparedStatement.setDouble(4, customer.getSalary());
+                preparedStatement.setInt(4, customer.getPhonenumber());
 
                 int rowsAffected = preparedStatement.executeUpdate();
                 return rowsAffected > 0;
@@ -32,11 +32,11 @@ public class CustomerController implements CustomerService{
     @Override
     public boolean updateCustomer(Customer customer) {
         try (Connection connection = DBConnection.getInstance().getConnection()) {
-            String query = "UPDATE customer SET name = ?, address = ?, salary = ? WHERE id = ?";
+            String query = "UPDATE customer SET name = ?, address = ?, phonenumber = ? WHERE id = ?";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
                 preparedStatement.setString(1, customer.getName());
                 preparedStatement.setString(2, customer.getAddress());
-                preparedStatement.setDouble(3, customer.getSalary());
+                preparedStatement.setInt(3, customer.getPhonenumber());
                 preparedStatement.setString(4, customer.getId());
 
                 int rowsAffected = preparedStatement.executeUpdate();
@@ -61,7 +61,7 @@ public class CustomerController implements CustomerService{
                             resultSet.getString("id"),
                             resultSet.getString("name"),
                             resultSet.getString("address"),
-                            resultSet.getDouble("salary")
+                            resultSet.getInt("phonenumber")
                     );
                 }
             }
@@ -85,7 +85,7 @@ public class CustomerController implements CustomerService{
                         resultSet.getString(1),
                         resultSet.getString(2),
                         resultSet.getString(3),
-                        resultSet.getDouble(4)
+                        resultSet.getInt(4)
                 );
                 customerArrayList.add(customer);
             }

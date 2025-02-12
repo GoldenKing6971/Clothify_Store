@@ -5,17 +5,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-
-public class Order {
-    private String id;
+public class Delivery {
+    private String deliveryId;
+    private String orderId;
+    private String customerName;
+    private String address;
+    private String status;
     private String date;
-    private String customerId;
-    private List<OrderDetail> orderDetails;
-    private List<Report> reportDetail;
+
 }

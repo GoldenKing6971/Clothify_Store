@@ -9,30 +9,30 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="914.0" stylesheets="@../css/style3.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="914.0" stylesheets="@../css/style3.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardView">
    <top>
        <VBox spacing="20" styleClass="main-content">
            <HBox prefHeight="81.0" prefWidth="874.0" spacing="20">
                <VBox prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
-                   <Label text="Total Sales" />
-                   <Label styleClass="value" text="Rs.590,560" />
+                   <Label text="Total Sales (Rs.)" />
+                   <Label fx:id="lblTotal" styleClass="value" text="000,000" />
                </VBox>
             <VBox layoutX="10.0" layoutY="10.0" prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
                <children>
                   <Label text="Product" />
-                  <Label styleClass="value" text="1,000" />
+                  <Label fx:id="lblProduct" styleClass="value" text="000,000" />
                </children>
             </VBox>
             <VBox layoutX="238.0" layoutY="10.0" prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
                <children>
                   <Label text="Orders" />
-                  <Label styleClass="value" text="1,200" />
+                  <Label fx:id="lblOrders" styleClass="value" text="0,000" />
                </children>
             </VBox>
             <VBox layoutX="466.0" layoutY="10.0" prefHeight="81.0" prefWidth="208.0" styleClass="info-card">
                <children>
                   <Label text="Customer" />
-                  <Label styleClass="value" text="1,450" />
+                  <Label fx:id="lblCustomer" styleClass="value" text="0,000" />
                </children>
             </VBox>
            </HBox>

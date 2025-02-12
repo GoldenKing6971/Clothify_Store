@@ -31,7 +31,7 @@
          </font></JFXButton>
         <JFXButton layoutX="790.0" layoutY="208.0" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="58.0" styleClass="btn1" stylesheets="@../css/style1.css" text="Add" />
         <TextField fx:id="txtId" layoutX="251.0" layoutY="85.0" prefHeight="25.0" prefWidth="174.0" promptText="ID" />
-        <TextField fx:id="txtSalary" layoutX="508.0" layoutY="148.0" prefHeight="25.0" prefWidth="174.0" promptText="Salary" />
+        <TextField fx:id="txtPhoneNo" layoutX="508.0" layoutY="148.0" prefHeight="25.0" prefWidth="174.0" promptText="Phone No" />
         <TextField fx:id="txtName" layoutX="508.0" layoutY="85.0" prefHeight="25.0" prefWidth="174.0" promptText="Name" />
         <TextField fx:id="txtAddress" layoutX="251.0" layoutY="148.0" prefHeight="25.0" prefWidth="174.0" promptText="Address" />
         <TableView fx:id="tblCustomer" layoutX="31.0" layoutY="258.0" prefHeight="288.0" prefWidth="852.0" stylesheets="@../css/style1.css">

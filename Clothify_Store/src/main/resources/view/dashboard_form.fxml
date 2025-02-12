@@ -17,9 +17,9 @@
    <top>
       <HBox prefHeight="96.0" prefWidth="1068.0" styleClass="dashboard-colour2" stylesheets="@../css/style1.css" BorderPane.alignment="CENTER">
          <children>
-            <JFXButton styleClass="dashboard-colour2" stylesheets="@../css/style1.css" text=".">
+            <JFXButton onAction="#goInterFaceOnAction" styleClass="dashboard-colour2" stylesheets="@../css/style1.css" text=".">
                <graphic>
-                  <ImageView fitHeight="88.0" fitWidth="88.0" onDragDetected="#btnGoInterfaceOnAction" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="88.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../img/logo.png" />
                      </image>

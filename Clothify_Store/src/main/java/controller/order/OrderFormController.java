@@ -19,10 +19,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.util.Duration;
-import model.Customer;
-import model.Item;
-import model.Order;
-import model.OrderDetail;
+import model.*;
 import model.TM.CartTM;
 
 import java.net.URL;
@@ -40,7 +37,7 @@ public class OrderFormController implements Initializable {
     private JFXComboBox cmbCustomerID;
 
     @FXML
-    private JFXComboBox cmbItemID;
+    public JFXComboBox cmbItemID;
 
     @FXML
     private TableColumn colDescription;
@@ -101,6 +98,7 @@ public class OrderFormController implements Initializable {
         setDateAndTime();
         loadCustomerIds();
         loadItemCodes();
+        setOrderId();
 
         cmbCustomerID.getSelectionModel().selectedItemProperty().addListener((observableValue, oldValue, newValue) -> {
             if (newValue!=null){
@@ -139,6 +137,35 @@ public class OrderFormController implements Initializable {
         ObservableList<String> customerIds = new CustomerController().getCustomerIds();
         cmbCustomerID.setItems(customerIds);
     }
+
+    private void setOrderId() {
+        try {
+            String lastOrderId = OrderController.getLastOrderId();
+
+            if (lastOrderId != null && !lastOrderId.isEmpty()) {
+                if (lastOrderId.matches("[A-Za-z]+\\d+")) {
+                    String numericPart = lastOrderId.replaceAll("[A-Za-z]", "");
+                    int orderId = Integer.parseInt(numericPart);
+                    orderId++;
+                    lastOrderId = String.format("OR%03d", orderId);
+                    txtorderID.setText(lastOrderId);
+                } else {
+
+                    System.out.println("Invalid order ID format");
+                    txtorderID.setText("OR001");
+                }
+            } else {
+                txtorderID.setText("OR001");
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (NumberFormatException e) {
+            // Handle case where parsing fails.
+            e.printStackTrace();
+            txtorderID.setText("OR001");
+        }
+    }
+
 
     private void setDateAndTime(){
         Date date = new Date();
@@ -198,6 +225,7 @@ public class OrderFormController implements Initializable {
         String customerId = cmbCustomerID.getValue().toString();
 
         ArrayList<OrderDetail> orderDetails = new ArrayList<>();
+        ArrayList<Report> reportDetails = new ArrayList<>();
 
         cartTMS.forEach(cartTM -> {
             orderDetails.add(
@@ -211,7 +239,19 @@ public class OrderFormController implements Initializable {
 
         });
 
-        Order order = new Order(orderId, date, customerId, orderDetails);
+        cartTMS.forEach(cartTM -> {
+            reportDetails.add(
+                    new Report(
+                            date,
+                            orderId,
+                            cartTM.getItemCode(),
+                            cartTM.getUnitPrice(),
+                            cartTM.getTotal()
+                    )
+            );
+        });
+
+        Order order = new Order(orderId, date, customerId, orderDetails, reportDetails);
 
         if (new OrderController().placeOrder(order)){
             new Alert(Alert.AlertType.INFORMATION, "Order Placed !!").show();

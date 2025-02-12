@@ -35,5 +35,4 @@ public class OrderDetailController {
             throw new RuntimeException(e);
         }
     }
-
 }

@@ -43,16 +43,16 @@ public class CustomerFormController {
     private TextField txtName;
 
     @FXML
-    private TextField txtSalary;
+    private TextField txtPhoneNo;
 
     @FXML
     void btnAddOnAction(ActionEvent event) {
         String id = txtId.getText();
         String name = txtName.getText();
         String address = txtAddress.getText();
-        double salary = Double.parseDouble(txtSalary.getText());
+        int phonenumber = Integer.parseInt((txtPhoneNo.getText()));
 
-        Customer customer = new Customer(id, name, address, salary);
+        Customer customer = new Customer(id, name, address, phonenumber);
 
         boolean isAdded = new CustomerController().addCustomer(customer);
 
@@ -122,7 +122,7 @@ public class CustomerFormController {
             // If customer is found, display details in the text fields
             txtName.setText(customer.getName());
             txtAddress.setText(customer.getAddress());
-            txtSalary.setText(String.valueOf(customer.getSalary()));
+            txtPhoneNo.setText(String.valueOf(customer.getPhonenumber()));
 
             // Display success alert
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -146,9 +146,9 @@ public class CustomerFormController {
         String id = txtId.getText();
         String name = txtName.getText();
         String address = txtAddress.getText();
-        double salary = Double.parseDouble(txtSalary.getText());
+        int phonenumber = Integer.parseInt((txtPhoneNo.getText()));
 
-        Customer customer = new Customer(id, name, address, salary);
+        Customer customer = new Customer(id, name, address, phonenumber);
         boolean isUpdated = new CustomerController().updateCustomer(customer);
 
         if (isUpdated) {
@@ -175,7 +175,7 @@ public class CustomerFormController {
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
-        colSalary.setCellValueFactory(new PropertyValueFactory<>("salary"));
+        colSalary.setCellValueFactory(new PropertyValueFactory<>("phonenumber"));
 
         ObservableList<Customer> customerObservableList = FXCollections.observableArrayList();
 
